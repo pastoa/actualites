@@ -282,7 +282,7 @@ h2 {
 /* ==== Ajustements visuels personnalisés ==== */
 
 .actu-secondaires .actu {
-  background-color: #e0e0e0;
+  background-color: #dcdcdc;
 }
 
 .actu {
@@ -295,7 +295,7 @@ h2 {
   align-self: flex-start;
   margin-top: auto;
   margin-bottom: 10px;
-  font-size: 0.85rem;
+  font-size: 0.65rem;
 }
 
 .newsletter h2,
