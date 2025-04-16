@@ -1,8 +1,8 @@
 const articlePaths = [
-  "articles/article1.md", "articles/article2.md", "articles/article3.md",
-  "articles/article4.md", "articles/article5.md", "articles/article6.md",
-  "articles/article7.md", "articles/article8.md", "articles/article9.md",
-  "articles/article10.md", "articles/article11.md"
+  "post/article1.md", "post/article2.md", "post/article3.md",
+  "post/article4.md", "post/article5.md", "post/article6.md",
+  "post/article7.md", "post/article8.md", "post/article9.md",
+  "post/article10.md", "post/article11.md"
 ];
 
 const articlesPerPage = 10;
