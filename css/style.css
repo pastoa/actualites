@@ -111,6 +111,178 @@ nav a:hover {
   text-decoration: none;
   font-weight: bold;
 }
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f8f9fa;
+  color: #002654;
+  margin: 0;
+  padding: 0 20px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 28px;
+  color: #002654;
+  margin-bottom: 30px;
+}
+
+.actualites {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0;
+}
+
+.toute-actu {
+  float: right;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.toute-actu img {
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.toute-actu a {
+  color: #002654;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Actualités */
+.actu-principale {
+  display: flex;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  margin-bottom: 40px;
+}
+
+.actu-principale img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+.actu-principale .texte {
+  width: 50%;
+  padding: 30px;
+}
+
+.actu-principale .texte h2 {
+  font-size: 22px;
+  margin: 0 0 10px 0;
+}
+
+.actu-principale .date {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.actu-principale .btn {
+  background-color: #002654;
+  color: white;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.actu-principale .btn:hover {
+  background-color: #0050aa;
+}
+
+/* Actus secondaires */
+.actus-secondaires {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.actus-secondaires .carte {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 6px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+}
+
+.actus-secondaires img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.actus-secondaires .contenu {
+  padding: 16px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.actus-secondaires h3 {
+  font-size: 16px;
+  margin: 0 0 6px 0;
+}
+
+.actus-secondaires .date {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.actus-secondaires .btn {
+  background-color: #002654;
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 6px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.actus-secondaires .btn:hover {
+  background-color: #0050aa;
+}
+
+/* Pagination */
+.pagination {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.pagination button {
+  background: #ccc;
+  border: none;
+  padding: 8px 14px;
+  margin: 0 4px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #002654;
+  transition: background-color 0.2s ease;
+}
+
+.pagination button:hover {
+  background-color: #999;
+}
+
+.pagination button.active {
+  background-color: #002654;
+  color: white;
+}
+
 /* NEWSLETTER */
 .newsletter {
   background-color: #002654;
@@ -239,4 +411,24 @@ footer {
 }
 .footer-col ul li a:hover {
   text-decoration: underline;
+}
+
+/* Responsive */
+@media screen and (max-width: 900px) {
+  .actus-secondaires {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .actu-principale {
+    flex-direction: column;
+  }
+  .actu-principale img,
+  .actu-principale .texte {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .actus-secondaires {
+    grid-template-columns: 1fr;
+  }
 }
