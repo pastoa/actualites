@@ -1,5 +1,5 @@
 ---
-title: "Inauguration de la Maison de l'Autonomie à Cannes""
+title: "Inauguration de la Maison de l'Autonomie à Cannes"
 date: "2025-04-04"
 image: "images/actu3.jpg"
 ---
