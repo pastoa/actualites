@@ -1,7 +1,7 @@
 ---
-title: "Inauguration de la Maison de l'Autonomie à Cannes"
-date: "2025-04-04"
-image: "images/actu3.jpg"
+title: Inauguration de la Maison de l'Autonomie à Cannes
+date: 2025-04-04
+image: images/actu3.jpg
 summary: J’inaugure ce matin à Cannes avec le Maire, mon ami David Lisnard, la Maison de l’Autonomie  dédiée aux personnes âgées et en situation de handicap.
 ---
 Le Département des Alpes-Maritimes, garant d’un service public moderne, en proximité et en solidarité, répondant aux besoins de tous les publics 
