@@ -1,6 +1,16 @@
 ---
-title: "Le Département engagé pour la Méditerranée"
-date: "2024-04-18"
-image: "images/smartdeal.jpg"
+title: "Je soutiens Anne Sattonnet !"
+date: "2025-03-31"
+image: "images/actu1.jpg"
 ---
-Je suis heureux d’annoncer la création d’un deuxième parc maritime départemental à Roquebrune-Cap-Martin, en partenariat avec la commune, le Conservatoire du littoral et la CARF. C’est un beau projet dont je suis fier !
+Anne Sattonnet, mon binôme sur le magnifique canton de Vence et ma Vice-présidente en charge de la Gestion des Risques et du Patrimoine Départemental, a annoncé sa candidature pour les élections municipales à Vence.
+
+Anne a toutes les compétences, toutes les qualités et toute la détermination nécessaires pour être à l’écoute et répondre aux attentes des citoyens. Anne aime Vence par-dessus tout.
+
+Depuis de nombreuses années, son investissement et sa capacité de travail lorsqu’elle se saisie d’un dossier sont indéniables. Ce qu’elle prend à bras le corps, elle le mène à son terme.
+
+Ses grandes compétences professionnelles et sa vision en matière d’aménagement du territoire et d’urbanisme font déjà beaucoup pour ce territoire. Elles seront précieuses pour un développement raisonné et harmonieux de la Cité des Arts.
+
+Enfin, je ne peux que louer les qualités humaines d’Anne. Sa générosité, son accessibilité et sa sincérité sont des atouts que les Vençoises et les Vençois peuvent constater au quotidien.
+
+Je suis de tout cœur avec elle.
