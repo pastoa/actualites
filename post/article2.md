@@ -1,7 +1,8 @@
 ---
-title: "Réception de Monsieur Elie Korchia"
-date: "2025-04-03"
-image: "images/actu2.jpg"
+title: Réception de Monsieur Elie Korchia
+date: 2025-04-03
+image: images/actu2.jpg
+summary: J’accueille aujourd’hui Elie Korchia, Président du Consistoire central israélite de France ainsi que Franck Israël, Président du Consistoire régional israélite Côte d'Azur Corse.
 ---
 La cohésion nationale doit plus que jamais être au cœur des combats que tous les élus doivent mener. Lorsque la laïcité, valeur fondatrice de notre République est attaquée, il est également fondamental de rappeler que chaque Français doit pouvoir vivre sa confession en paix. 
 
