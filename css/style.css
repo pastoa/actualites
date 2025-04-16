@@ -126,162 +126,159 @@ h2 {
   margin-bottom: 30px;
 }
 
-.actualites {
-  max-width: 1200px;
-  margin: 60px auto;
-  padding: 0;
-}
 
-.toute-actu {
-  float: right;
-  font-size: 14px;
-  font-weight: normal;
-}
-
-.toute-actu img {
-  height: 16px;
-  vertical-align: middle;
-  margin-right: 5px;
-}
-
-.toute-actu a {
-  color: #002654;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-/* Actualités */
-.actu-principale {
+/* === ACTU À LA UNE === */
+.actu-une {
   display: flex;
-  background: white;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
-  margin-bottom: 40px;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  max-width: 1200px;
+  gap: 40px;
+  align-items: center;
+  padding: 20px;
 }
 
-.actu-principale img {
-  width: 50%;
+.actu-une .image {
+  flex: 1 1 45%;
+}
+
+.actu-une .image img {
+  width: 100%;
   height: auto;
-  object-fit: cover;
+  border-radius: 10px;
 }
 
-.actu-principale .texte {
-  width: 50%;
-  padding: 30px;
+.actu-une .texte {
+  flex: 1 1 50%;
 }
 
-.actu-principale .texte h2 {
-  font-size: 22px;
-  margin: 0 0 10px 0;
-}
-
-.actu-principale .date {
-  font-size: 14px;
-  color: #666;
+.actu-une .texte h2 {
+  font-size: 1.8em;
   margin-bottom: 10px;
 }
 
-.actu-principale .btn {
+.actu-une .texte .date {
+  font-size: 0.9em;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.actu-une .texte p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.actu-une .btn {
   background-color: #002654;
   color: white;
+  padding: 10px 18px;
+  border-radius: 30px;
   text-decoration: none;
-  padding: 10px 16px;
-  border-radius: 6px;
-  display: inline-block;
-  margin-top: 10px;
-  font-size: 14px;
-  transition: background-color 0.3s ease;
+  font-weight: bold;
+  transition: background-color 0.3s;
 }
 
-.actu-principale .btn:hover {
-  background-color: #0050aa;
+.actu-une .btn:hover {
+  background-color: #0048a4;
 }
 
-/* Actus secondaires */
-.actus-secondaires {
+
+/* === ARTICLES SECONDAIRES === */
+.liste-actus {
+  max-width: 1200px;
+  margin: 40px auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+  padding: 0 20px;
 }
 
-.actus-secondaires .carte {
-  background: white;
+.carte-article {
+  background-color: #f5f5f5;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 0 6px rgba(0,0,0,0.08);
+  padding: 15px;
   display: flex;
   flex-direction: column;
+  height: 100%;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
 }
 
-.actus-secondaires img {
+.carte-article:hover {
+  transform: translateY(-5px);
+}
+
+.carte-article img {
   width: 100%;
-  height: 160px;
-  object-fit: cover;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 12px;
 }
 
-.actus-secondaires .contenu {
-  padding: 16px;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.carte-article h3 {
+  font-size: 1.2em;
+  margin-bottom: 6px;
 }
 
-.actus-secondaires h3 {
-  font-size: 16px;
-  margin: 0 0 6px 0;
+.carte-article .date {
+  font-size: 0.8em;
+  color: #888;
+  margin-bottom: 6px;
 }
 
-.actus-secondaires .date {
-  font-size: 13px;
-  color: #666;
-  margin-bottom: 8px;
+.carte-article p {
+  font-size: 0.95em;
+  line-height: 1.4;
+  margin-bottom: 12px;
 }
 
-.actus-secondaires .btn {
+.carte-article .btn {
+  align-self: flex-start;
   background-color: #002654;
   color: white;
-  text-decoration: none;
-  padding: 8px 12px;
-  font-size: 12px;
-  text-align: center;
-  border-radius: 6px;
-  margin-top: 10px;
-  text-transform: uppercase;
-  transition: background-color 0.3s ease;
-}
-
-.actus-secondaires .btn:hover {
-  background-color: #0050aa;
-}
-
-/* Pagination */
-.pagination {
-  margin-top: 50px;
-  text-align: center;
-}
-
-.pagination button {
-  background: #ccc;
-  border: none;
   padding: 8px 14px;
-  margin: 0 4px;
-  border-radius: 5px;
-  cursor: pointer;
+  border-radius: 30px;
+  text-decoration: none;
   font-weight: bold;
+  font-size: 0.85em;
+  transition: background-color 0.3s;
+}
+
+.carte-article .btn:hover {
+  background-color: #0048a4;
+}
+
+
+/* === PAGINATION === */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 50px 0;
+  flex-wrap: wrap;
+}
+
+.pagination .page {
+  display: inline-block;
+  padding: 8px 14px;
+  background-color: #eee;
   color: #002654;
-  transition: background-color 0.2s ease;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background-color 0.3s;
 }
 
-.pagination button:hover {
-  background-color: #999;
+.pagination .page:hover {
+  background-color: #ccc;
 }
 
-.pagination button.active {
+.pagination .active {
   background-color: #002654;
   color: white;
 }
+
 
 /* NEWSLETTER */
 .newsletter {
