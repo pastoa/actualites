@@ -2,27 +2,41 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Charles Ange Ginésy - Actualités</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charles Ange Ginésy</title>
   <link rel="stylesheet" href="css/style.css">
+  <script>
+    function toggleMenu() {
+      const nav = document.querySelector("nav ul");
+      nav.style.display = nav.style.display === "flex" ? "none" : "flex";
+    }
+    <script>
 </head>
 <body>
 
   <!-- ✨ Ici commence le contenu réel de ta page -->
   <header>
-    <div class="header-left">
-      <h1>CHARLES ANGE GINÉSY</h1>
-      <p>Président du Département des Alpes-Maritimes</p>
-      <p>Président de la Communauté de Communes Alpes d'Azur</p>
+<div class="header-left">
+      <h1 class="header-title">CHARLES ANGE GINÉSY</h1>
+      <div class="liseret"></div>
+      <p class="header-subtitle">Président du Département des Alpes-Maritimes<br>Président de la Communauté de Communes Alpes d'Azur</p>
     </div>
-    <button onclick="toggleMenu()">☰</button>
+    <button id="menu-toggle" onclick="toggleMenu()">☰</button>
     <nav>
       <ul>
         <li><a href="#actualites">ACTUALITÉS</a></li>
-        <li><a href="#meconnaitre">MIEUX ME CONNAÎTRE</a></li>
+        <li><a href="#connaitre">MIEUX ME CONNAÎTRE</a></li>
         <li><a href="#priorites">MES PRIORITÉS</a></li>
         <li><a href="#contact">ME CONTACTER</a></li>
       </ul>
     </nav>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/CAGinesy/" target="_blank"><img src="images/facebook-logo.svg" alt="Facebook"></a>
+      <a href="https://www.instagram.com/ca_ginesy/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+      <a href="https://www.linkedin.com/in/caginesy/" target="_blank"><img src="images/linkedin-big-logo.svg" alt="LinkedIn"></a>
+      <a href="https://x.com/ca_ginesy" target="_blank"><img src="images/x.png" alt="X"></a>
+      <a href="https://www.tiktok.com/@charlesangeginesy" target="_blank"><img src="images/tiktokgood.svg" alt="TikTok"></a>
+    </div>
   </header>
 
   <main>
