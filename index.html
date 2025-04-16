@@ -1,10 +1,92 @@
 <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Actualités</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charles Ange Ginésy</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function toggleMenu() {
+      const nav = document.querySelector("nav ul");
+      nav.style.display = nav.style.display === "flex" ? "none" : "flex";
+    }
+    function afficherPriorite(id) {
+      const contenus = document.querySelectorAll(".priorite-content");
+      contenus.forEach(c => c.classList.remove("active"));
+      document.getElementById(id).classList.add("active");
+    }
+  </script>
 </head>
 <body>
-  <h1>Page Actualités</h1>
-</body>
-</html>
+  <header>
+    <div class="header-left">
+      <h1 class="header-title">CHARLES ANGE GINÉSY</h1>
+      <div class="liseret"></div>
+      <p class="header-subtitle">Président du Département des Alpes-Maritimes<br>Président de la Communauté de Communes Alpes d'Azur</p>
+    </div>
+    <button id="menu-toggle" onclick="toggleMenu()">☰</button>
+    <nav>
+      <ul>
+        <li><a href="#actualites">ACTUALITÉS</a></li>
+        <li><a href="#connaitre">MIEUX ME CONNAÎTRE</a></li>
+        <li><a href="#priorites">MES PRIORITÉS</a></li>
+        <li><a href="#contact">ME CONTACTER</a></li>
+      </ul>
+    </nav>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/CAGinesy/" target="_blank"><img src="images/facebook-logo.svg" alt="Facebook"></a>
+      <a href="https://www.instagram.com/ca_ginesy/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+      <a href="https://www.linkedin.com/in/caginesy/" target="_blank"><img src="images/linkedin-big-logo.svg" alt="LinkedIn"></a>
+      <a href="https://x.com/ca_ginesy" target="_blank"><img src="images/x.png" alt="X"></a>
+      <a href="https://www.tiktok.com/@charlesangeginesy" target="_blank"><img src="images/tiktokgood.svg" alt="TikTok"></a>
+    </div>
+  </header>
+   <section class="newsletter">
+    <h2>TOUTE MON ACTUALITÉ DANS VOTRE BOÎTE MAIL</h2>
+    <form>
+      <input type="email" placeholder="Votre adresse mail">
+      <button type="submit">📩</button>
+    </form>
+  </section>
+
+  <section class="suivez-moi">
+    <h2>SUIVEZ-MOI</h2>
+    <div class="icons">
+      <a href="https://www.facebook.com/CAGinesy/" target="_blank"><img src="images/facebook-logo.svg" alt="Facebook"></a>
+      <a href="https://www.instagram.com/ca_ginesy/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+      <a href="https://www.linkedin.com/in/caginesy/" target="_blank"><img src="images/linkedin-big-logo.svg" alt="LinkedIn"></a>
+      <a href="https://x.com/ca_ginesy" target="_blank"><img src="images/x.png" alt="X"></a>
+      <a href="https://www.tiktok.com/@charlesangeginesy" target="_blank"><img src="images/tiktokgood.svg" alt="TikTok"></a>
+    </div>
+  </section>
+  <!-- FOOTER -->
+<footer>
+  <div class="footer-container">
+    <div class="footer-col logo">
+      <img src="images/LR_logo_blanc_120x84.webp" alt="Logo LR">
+      <a href="#" class="footer-link">Mentions légales</a>
+    </div>
+    <div class="footer-col follow">
+      <h3>ME SUIVRE</h3>
+      <hr>
+      <div class="footer-icons">
+      <a href="https://www.facebook.com/CAGinesy/" target="_blank"><img src="images/facebook-logo.svg" alt="Facebook"></a>
+      <a href="https://www.instagram.com/ca_ginesy/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+      <a href="https://www.linkedin.com/in/caginesy/" target="_blank"><img src="images/linkedin-big-logo.svg" alt="LinkedIn"></a>
+      <a href="https://x.com/ca_ginesy" target="_blank"><img src="images/x.png" alt="X"></a>
+      <a href="https://www.tiktok.com/@charlesangeginesy" target="_blank"><img src="images/tiktokgood.svg" alt="TikTok"></a>
+      </div>
+    </div>
+    <div class="footer-col sitemap">
+      <h3>PLAN DU SITE</h3>
+      <hr>
+      <ul>
+        <li><a href="#actualites">Actualités</a></li>
+        <li><a href="#connaitre">Mieux me connaître</a></li>
+        <li><a href="#priorites">Mes priorités</a></li>
+        <li><a href="#contact">Me contacter</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
