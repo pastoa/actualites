@@ -279,6 +279,30 @@ h2 {
   color: white;
 }
 
+/* ==== Ajustements visuels personnalisés ==== */
+
+.actu-secondaires .actu {
+  background-color: #e0e0e0;
+}
+
+.actu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.read-more {
+  align-self: flex-start;
+  margin-top: auto;
+  margin-bottom: 10px;
+  font-size: 0.85rem;
+}
+
+.newsletter h2,
+.suivez-moi h2 {
+  color: white;
+}
+
 
 /* NEWSLETTER */
 .newsletter {
