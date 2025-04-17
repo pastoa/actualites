@@ -140,6 +140,52 @@ h2 {
   margin-bottom: 30px;
 }
 
+/* NEWSLETTER */
+.newsletter {
+  background-color: #002654;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.newsletter h2 {
+  font-size: 1.4em;
+  font-color: white;
+  font-weight: bold;
+}
+
+.newsletter form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.newsletter input {
+  padding: 12px;
+  width: 280px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1em;
+}
+
+.newsletter button {
+  background: white;
+  color: #002654;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.newsletter button:hover {
+  background-color: #004080;
+  color: white;
+}
 
 /* === ACTU À LA UNE === */
 .actu-une {
@@ -314,54 +360,6 @@ h2 {
 
 .newsletter h2,
 .suivez-moi h2 {
-  color: white;
-}
-
-
-/* NEWSLETTER */
-.newsletter {
-  background-color: #002654;
-  color: white;
-  padding: 30px 20px;
-  text-align: center;
-}
-
-.newsletter h2 {
-  font-size: 1.4em;
-  font-color: white;
-  font-weight: bold;
-}
-
-.newsletter form {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.newsletter input {
-  padding: 12px;
-  width: 280px;
-  border-radius: 5px;
-  border: none;
-  font-size: 1em;
-}
-
-.newsletter button {
-  background: white;
-  color: #002654;
-  padding: 12px 20px;
-  border-radius: 5px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.newsletter button:hover {
-  background-color: #004080;
   color: white;
 }
 
