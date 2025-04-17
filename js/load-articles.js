@@ -67,6 +67,15 @@ function renderArticlesSecondaires(articles) {
   });
 }
 
+// Fonction pour formater la date en FR
+    function formatDate(dateString) {
+      const date = new Date(dateString);
+      const day = String(date.getDate()).padStart(2, "0");
+      const month = String(date.getMonth() + 1).padStart(2, "0");
+      const year = date.getFullYear();
+      return `${day}.${month}.${year}`;
+    }
+
 // Afficher la pagination
 function renderPagination(currentPage, totalPages) {
   const pag = document.getElementById('pagination');
