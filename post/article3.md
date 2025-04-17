@@ -16,6 +16,6 @@ Fidèle à son ADN de solidarité, le Département des Alpes-Maritimes, la MDPH 
 
 Cette inauguration est pour moi l’occasion de rappeler la détermination de notre collectivité à honorer son engagement en faveur des personnes âgées et en situation de handicap. Notre budget 2025 donne largement sa place à la solidarité.
 
-Je veux remercier la Ville de Cannes, David Lisnard, Alexandra Martin, les Vice-présidents Jacques Gente et Valerie Sicardi Sergi, les conseillers départementaux présents et toutes celles et ceux qui travaillent à mes côtés au cœur de notre belle collectivité. 
+Je veux remercier la Ville de Cannes, David Lisnard, Alexandra Martin, les Vice-présidents Jacques Gente et Valerie Sergi, les conseillers départementaux présents et toutes celles et ceux qui travaillent à mes côtés au cœur de notre belle collectivité. 
 
 Le Département accompagnera toujours les communes dans leurs projets !
