@@ -1,6 +1,8 @@
 /* RESET & FONDAMENTAUX */
 body {
-  margin: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
   font-family: "Helvetica Neue", sans-serif;
   color: #002654;
   background-color: #fff;
@@ -41,6 +43,10 @@ header {
   font-weight: bold;
 }
 
+.header-title a {
+  text-decoration: none;
+  color: inherit;
+}
 .header-subtitle {
   font-size: 0.60em;
   color: #ccc;
