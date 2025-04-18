@@ -1,6 +1,7 @@
 ---
 title: Je soutiens Anne Sattonnet !
 date: 2025-03-31
+id: article-annesattonnet
 image: images/actu1.jpg
 summary: Anne Sattonnet, mon binôme sur le magnifique canton de Vence et ma Vice-présidente en charge de la Gestion des Risques et du Patrimoine Départemental, a annoncé sa candidature pour les élections municipales à Vence.
 ---
