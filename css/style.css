@@ -1,7 +1,8 @@
 /* RESET & FONDAMENTAUX */
 
 body {
-  max-width: 1200px;
+  max-width: 100%;
+  width: 100%
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
@@ -144,7 +145,8 @@ h2 {
 .newsletter {
   background-color: #002654;
   color: white;
-  padding: 30px 20px;
+  padding: 0 20px;
+  width: 100%;
   text-align: center;
 }
 
@@ -192,7 +194,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   margin: 50px auto;
-  max-width: 1200px;
+  width: 100%;
   gap: 40px;
   align-items: center;
   padding: 20px;
@@ -367,7 +369,8 @@ h2 {
 .suivez-moi {
   background: #e02d2d;
   color: white;
-  padding: 30px 20px;
+  padding: 0 20px;
+  width: 100%;
   text-align: center;
 }
 
@@ -398,7 +401,8 @@ h2 {
 footer {
   background: #003399;
   color: white;
-  padding: 40px 10%;
+  padding: 0 20px;
+  width: 100%;
 }
 .footer-container {
   display: flex;
