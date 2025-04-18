@@ -4,7 +4,7 @@ body {
   max-width: 100%;
   width: 100%
   margin: 0 auto;
-  padding: 20px 20px;
+  padding: 10px 40px;
   box-sizing: border-box;
     font-family: "Helvetica Neue", sans-serif;
   color: #002654;
@@ -145,7 +145,7 @@ h2 {
 .newsletter {
   background-color: #002654;
   color: white;
-  padding: 0 20px;
+  padding: 10 40px;
   width: 100%;
   text-align: center;
 }
@@ -369,7 +369,7 @@ h2 {
 .suivez-moi {
   background: #e02d2d;
   color: white;
-  padding: 0 20px;
+  padding: 10px 40px;
   width: 100%;
   text-align: center;
 }
@@ -401,7 +401,7 @@ h2 {
 footer {
   background: #003399;
   color: white;
-  padding: 0 20px;
+  padding: 10px 40px;
   width: 100%;
 }
 .footer-container {
