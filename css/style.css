@@ -2,13 +2,13 @@
 
 body {
   max-width: 100%;
-  width: 100%
   margin: 0 auto;
   padding: 20px 40px;
   box-sizing: border-box;
-    font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   color: #002654;
   background-color: #fff;
+  width: 100%
 }
 
 main, section, .page-content, .content-wrapper {
@@ -38,10 +38,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 40px;
-  width: 100%;
   flex-wrap: wrap;
   position: relative;
+  padding: 20px 40px;
+  width: 100%;
 }
 
 .header-left {
@@ -146,9 +146,9 @@ h2 {
 .newsletter {
   background-color: #002654;
   color: white;
+  text-align: center;
   padding: 20px 40px;
   width: 100%;
-  text-align: center;
 }
 
 .newsletter h2 {
