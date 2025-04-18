@@ -39,7 +39,8 @@ jobs:
                 date: data.date,
                 image: "https://pastoa.github.io/actualites/" + data.image,
                 slug: file.replace(".md", ""),
-                excerpt
+                excerpt: excerpt
+                content: html
               });
             }
           });
