@@ -34,6 +34,7 @@ jobs:
               const { data, content } = matter(raw);
               const excerpt = content.trim().split("\n").slice(0, 5).join(" ");
               articles.push({
+                id: data.id,
                 title: data.title,
                 date: data.date,
                 image: "https://pastoa.github.io/actualites/" + data.image,
