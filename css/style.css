@@ -454,6 +454,133 @@ footer {
   box-sizing: border-box;
 }
 
+/* === PAGE ARTICLE === */
+
+.article-complet {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.article-complet h1 {
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
+
+.article-complet .date {
+  font-size: 0.9em;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.article-complet img {
+  width: 100%;
+  max-height: 450px;
+  object-fit: cover;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+.article-complet .contenu-article {
+  line-height: 1.7;
+  font-size: 1.1em;
+  color: #333;
+}
+
+/* === ARTICLES RÉCENTS === */
+
+.articles-recents {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+.articles-recents h2 {
+  font-size: 1.6em;
+  margin-bottom: 20px;
+}
+
+.recents-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.recent-article {
+  flex: 1 1 calc(50% - 10px);
+  background: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.recent-article:hover {
+  transform: translateY(-4px);
+}
+
+.recent-article img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.recent-article h3 {
+  font-size: 1.1em;
+  margin: 10px 15px;
+  color: #002654;
+}
+
+.recent-article h3 a {
+  text-decoration: none;
+  color: #002654;
+  transition: color 0.2s ease;
+}
+
+.recent-article h3 a:hover {
+  color: #007bff;
+}
+
+/* === BOUTON LIRE LA SUITE === */
+
+.bouton-lire {
+  display: inline-block;
+  background-color: #002654;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 25px;
+  margin-top: 15px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.bouton-lire:hover {
+  background-color: #0051a8;
+}
+
+/* === RESPONSIVE ARTICLE PAGE === */
+
+@media screen and (max-width: 768px) {
+  .article-complet {
+    padding: 20px 15px;
+  }
+
+  .article-complet img {
+    max-height: 300px;
+  }
+
+  .recents-container {
+    flex-direction: column;
+  }
+
+  .recent-article {
+    flex: 1 1 100%;
+  }
+}
+
+
 /* Responsive */
 @media screen and (max-width: 900px) {
   .actus-secondaires {
