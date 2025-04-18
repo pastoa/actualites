@@ -1,6 +1,7 @@
 ---
 title: Réception de Monsieur Elie Korchia
 date: 2025-04-03
+id: article-receptioneliekorchia
 image: images/actu2.jpg
 summary: J’accueille aujourd’hui Elie Korchia, Président du Consistoire central israélite de France ainsi que Franck Israël, Président du Consistoire régional israélite Côte d'Azur Corse.
 ---
