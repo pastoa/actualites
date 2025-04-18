@@ -1,5 +1,6 @@
 [
   {
+    "id": "article-vieillespompes",
     "title": "L'hiver se termine en fête à Valberg",
     "date": "2025-04-12T00:00:00.000Z",
     "image": "https://pastoa.github.io/actualites/images/actu4.jpg",
@@ -7,6 +8,7 @@
     "excerpt": "700 amoureux de la station de Valberg clôturent la saison avec le traditionnel Trophée des Vieilles pompes organisé par le Syndicat des Commerçants et Artisans de Valberg présidé par Anthony Rossello et le soutien de la station et du Département des Alpes-Maritimes !  Une tradition qui marque la fin de la saison d’hiver et l’arrivée du printemps, en compagnie de tous les valbergans. Repas à base de produits locaux, jeux, tombola,la journée sera largement festive ! Le bilan de cet hiver : 46 % de taux d’occupation des meublés communaux ; + de 20 000 accueils à l’Office de Tourisme ;"
   },
   {
+    "id": "article-maisonautonomie",
     "title": "Inauguration de la Maison de l'Autonomie à Cannes",
     "date": "2025-04-04T00:00:00.000Z",
     "image": "https://pastoa.github.io/actualites/images/actu3.jpg",
@@ -14,6 +16,7 @@
     "excerpt": "Le Département des Alpes-Maritimes, garant d’un service public moderne, en proximité et en solidarité, répondant aux besoins de tous les publics  J’inaugure ce matin à Cannes avec le Maire, mon ami David Lisnard, la Maison de l’Autonomie  dédiée aux personnes âgées et en situation de handicap. Son ambition : - Offrir un accompagnement humain et accessible - Proposer un service global, personnalisé et efficace - Regrouper les services d’autonomie et de proximité du Département"
   },
   {
+    "id": "article-receptioneliekorchia",
     "title": "Réception de Monsieur Elie Korchia",
     "date": "2025-04-03T00:00:00.000Z",
     "image": "https://pastoa.github.io/actualites/images/actu2.jpg",
@@ -21,10 +24,11 @@
     "excerpt": "La cohésion nationale doit plus que jamais être au cœur des combats que tous les élus doivent mener. Lorsque la laïcité, valeur fondatrice de notre République est attaquée, il est également fondamental de rappeler que chaque Français doit pouvoir vivre sa confession en paix.   En ce sens j’accueille aujourd’hui Elie Korchia, Président du Consistoire central israélite de France ainsi que Franck Israël, Président du Consistoire régional israélite Côte d'Azur Corse. Un échange essentiel autour de ces défis : lutte contre l’antisémitisme, protection des lieux de culte, transmission de la mémoire.  Face à la recrudescence des actes antisémites, le Département des Alpes-Maritimes assume son rôle de rempart face à l’intolérance et aux dérives extrêmes."
   },
   {
+    "id": "article-annesattonnet",
     "title": "Je soutiens Anne Sattonnet !",
     "date": "2025-03-31T00:00:00.000Z",
     "image": "https://pastoa.github.io/actualites/images/actu1.jpg",
     "slug": "article1",
-    "excerpt": "Anne Sattonnet, mon binôme sur le magnifique canton de Vence et ma Vice-présidente en charge de la Gestion des Risques et du Patrimoine Départemental, a annoncé sa candidature pour les élections municipales à Vence.  Anne a toutes les compétences, toutes les qualités et toute la détermination nécessaires pour être à l’écoute et répondre aux attentes des citoyens. Anne aime Vence par-dessus tout.  Depuis de nombreuses années, son investissement et sa capacité de travail lorsqu’elle se saisie d’un dossier sont indéniables. Ce qu’elle prend à bras le corps, elle le mène à son terme."
+    "excerpt": "Anne Sattonnet, mon binôme sur le magnifique canton de Vence et ma Vice-Présidente en charge de la Gestion des Risques et du Patrimoine Départemental, a annoncé sa candidature pour les élections municipales à Vence.  Anne a toutes les compétences, toutes les qualités et toute la détermination nécessaires pour être à l’écoute et répondre aux attentes des citoyens. Anne aime Vence par-dessus tout.  Depuis de nombreuses années, son investissement et sa capacité de travail lorsqu’elle se saisie d’un dossier sont indéniables. Ce qu’elle prend à bras le corps, elle le mène à son terme."
   }
 ]
