@@ -458,14 +458,23 @@ footer {
 
 .article-complet {
   max-width: 900px;
-  margin: 0 auto;
-  padding: 40px 20px;
-  background: #fff;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.article-complet img {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
   border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 .article-complet h1 {
-  font-size: 2.2em;
+  font-size: 2em;
+  color: #002654;
   margin-bottom: 10px;
 }
 
@@ -475,50 +484,40 @@ footer {
   margin-bottom: 20px;
 }
 
-.article-complet img {
-  width: 100%;
-  max-height: 450px;
-  object-fit: cover;
-  margin-bottom: 30px;
-  border-radius: 8px;
-}
-
-.article-complet .contenu-article {
-  line-height: 1.7;
+.article-complet .contenu {
   font-size: 1.1em;
-  color: #333;
+  line-height: 1.7;
+  color: #222;
 }
-
-/* === ARTICLES RÉCENTS === */
 
 .articles-recents {
-  max-width: 1100px;
   margin: 60px auto;
-  padding: 20px;
 }
 
 .articles-recents h2 {
+  text-align: center;
+  margin-bottom: 30px;
   font-size: 1.6em;
-  margin-bottom: 20px;
 }
 
 .recents-container {
   display: flex;
-  gap: 20px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 20px;
+  justify-content: center;
 }
 
 .recent-article {
-  flex: 1 1 calc(50% - 10px);
-  background: #f0f0f0;
+  flex: 1 1 calc(45%);
+  background-color: #f0f0f0;
   border-radius: 8px;
   overflow: hidden;
+  max-width: 400px;
   transition: transform 0.2s ease;
 }
 
 .recent-article:hover {
-  transform: translateY(-4px);
+  transform: translateY(-5px);
 }
 
 .recent-article img {
@@ -529,19 +528,39 @@ footer {
 
 .recent-article h3 {
   font-size: 1.1em;
-  margin: 10px 15px;
+  margin: 15px;
   color: #002654;
 }
 
 .recent-article h3 a {
   text-decoration: none;
   color: #002654;
-  transition: color 0.2s ease;
 }
 
 .recent-article h3 a:hover {
-  color: #007bff;
+  text-decoration: underline;
 }
+
+.footer .icons img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .recents-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .recent-article {
+    max-width: 90%;
+  }
+
+  .article-complet {
+    padding: 15px;
+  }
+}
+
 
 /* === BOUTON LIRE LA SUITE === */
 
