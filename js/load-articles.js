@@ -44,7 +44,7 @@ function renderActuUne(article) {
       <h2>${article.title}</h2>
       <p class="date">${article.date}</p>
       <p>${article.summary}</p>
-      <a class="btn" href="#">LIRE LA SUITE</a>
+      <a href="https://pastoa.github.io/actualites/article.html?id=${article.id}" class="read-more">LIRE LA SUITE</a>
     </div>
   `;
 }
@@ -61,7 +61,7 @@ function renderArticlesSecondaires(articles) {
       <h3>${article.title}</h3>
       <p class="date">${article.date}</p>
       <p>${article.summary}</p>
-      <a class="btn" href="#">LIRE LA SUITE</a>
+      <a href="https://pastoa.github.io/actualites/article.html?id=${article.id}" class="read-more">LIRE LA SUITE</a>
     `;
     liste.appendChild(div);
   });
