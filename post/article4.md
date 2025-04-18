@@ -1,6 +1,7 @@
 ---
 title: L'hiver se termine en fête à Valberg
 date: 2025-04-12
+id: article-vieillespompes
 image: images/actu4.jpg
 summary: 700 amoureux de la station de Valberg clôturent la saison avec le traditionnel Trophée des Vieilles pompes organisé par le Syndicat des Commerçants et Artisans de Valberg présidé par Anthony Rossello et le soutien de la station et du Département des Alpes-Maritimes ! Une tradition qui marque la fin de la saison d’hiver et l’arrivée du printemps, en compagnie de tous les valbergans.
 ---
