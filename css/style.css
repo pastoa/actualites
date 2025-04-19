@@ -242,6 +242,22 @@ h2 {
   background-color: #0048a4;
 }
 
+.read-more {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 18px;
+  background-color: #002654;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+  background-color: #004080;
+  cursor: pointer;
+}
 
 /* === ARTICLES SECONDAIRES === */
 .liste-actus {
@@ -309,6 +325,22 @@ h2 {
   background-color: #0048a4;
 }
 
+.read-more {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 18px;
+  background-color: #002654;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+  background-color: #004080;
+  cursor: pointer;
+}
 
 /* === PAGINATION === */
 .pagination {
