@@ -13,6 +13,6 @@ Depuis de nombreuses années, son investissement et sa capacité de travail lors
 
 Ses grandes compétences professionnelles, sa vision en matière d’aménagement du territoire et d’urbanisme font déjà beaucoup pour ce territoire. Elles seront précieuses pour un développement raisonné et harmonieux de la Cité des Arts.
 
-Enfin, je ne peux que louer les qualités humaines d’Anne. Sa générosité, son accessibilité et sa sincérité sont des atouts que les Vençoises et les Vençois peuvent constater au quotidien.
+Enfin, je ne peux que louer les qualités humaines d’Anne. Sa générosité, son accessibilité, sa sincérité sont des atouts que les Vençoises et les Vençois peuvent constater au quotidien.
 
 Je suis de tout cœur avec elle.
