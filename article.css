@@ -411,4 +411,90 @@ footer {
   }
 }
 
+/* Ajoute ce bloc tout en bas de style.css */
 
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  header nav ul {
+    display: none;
+    flex-direction: column;
+    background-color: #002654;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    padding: 20px;
+  }
+
+  header nav ul.active {
+    display: flex;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  header .social-icons {
+    display: none;
+  }
+
+  footer {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-socials {
+  display: flex;
+  gap: 15px;
+  justify-content: center; /* ✅ centre les logos */
+  margin-top: 20px;
+}
+
+
+  .actu {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .carte-article {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
+/* Ajoute ce bloc tout en bas de article.css */
+
+.recents-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.recent-article {
+  flex: 1 1 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 600px) {
+  .recent-article {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+}
+
+.recent-article h4 a {
+  text-decoration: none;
+  color: #002654;
+}
+
+.recent-article h4 a:hover {
+  text-decoration: underline;
+}
