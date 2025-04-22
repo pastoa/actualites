@@ -7,29 +7,39 @@ const output = [];
 fs.readdirSync(articlesDir)
   .filter(file => file.endsWith(".md"))
   .forEach(file => {
-    const content = fs.readFileSync(path.join(articlesDir, file), "utf-8");
-    const [ , frontmatter, body ] = content.split("---");
+    try {
+      const filePath = path.join(articlesDir, file);
+      const content = fs.readFileSync(filePath, "utf-8");
+      const [ , frontmatter, body ] = content.split("---");
 
-    const meta = {};
-    frontmatter.trim().split("\n").forEach(line => {
-      const [key, ...rest] = line.split(":");
-      meta[key.trim()] = rest.join(":").trim().replace(/^"|"$/g, "");
-    });
+      if (!frontmatter || !body) {
+        throw new Error(`Format YAML invalide dans ${file}`);
+      }
 
-    const excerpt = body.trim().split("\n").slice(0, 5).join(" ");
-    const slug = file.replace(".md", "");
+      const meta = {};
+      frontmatter.trim().split("\n").forEach(line => {
+        const [key, ...rest] = line.split(":");
+        meta[key.trim()] = rest.join(":").trim().replace(/^"|"$/g, "");
+      });
 
-    output.push({
-      title: meta.title,
-      date: meta.date,
-      image: `https://pastoa.github.io/actualites/${meta.image}`,
-      slug,
-      excerpt,
-      content: body.trim()
-    });
+      const excerpt = body.trim().split("\n").slice(0, 5).join(" ");
+      const slug = file.replace(".md", "");
+
+      output.push({
+        title: meta.title,
+        date: meta.date,
+        image: `https://pastoa.github.io/actualites/${meta.image}`,
+        slug,
+        excerpt,
+        content: body.trim() // ✅ contenu complet de l’article
+      });
+    } catch (error) {
+      console.error(`❌ Erreur dans le fichier ${file}: ${error.message}`);
+      process.exit(1);
+    }
   });
 
 output.sort((a, b) => new Date(b.date) - new Date(a.date));
 
 fs.writeFileSync("articles.json", JSON.stringify(output, null, 2));
-console.log("✅ Fichier articles.json généré !");
+console.log("✅ Fichier articles.json généré avec contenu complet !");
