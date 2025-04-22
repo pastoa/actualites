@@ -21,7 +21,7 @@ function renderArticle(article) {
   if (titleEl) titleEl.textContent = article.title;
   if (dateEl) dateEl.textContent = formatDateFR(article.date);
   if (imageEl) imageEl.src = article.image;
-  if (contentEl) contentEl.innerHTML = article.content;
+  if (contentEl) contentEl.innerHTML = article.content.replace(/\n+/g, '</p><p>').replace(/^/, '<p>').replace(/$/, '</p>');
 }
 
 function renderRecentArticles(allArticles, currentId) {
