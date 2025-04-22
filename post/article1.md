@@ -16,3 +16,4 @@ Ses grandes compétences professionnelles, sa vision en matière d’aménagemen
 Enfin, je ne peux que louer les qualités humaines d’Anne. Sa générosité, son accessibilité, sa sincérité sont des atouts que les Vençoises et les Vençois peuvent constater au quotidien.
 
 Je suis de tout cœur avec elle.
+
