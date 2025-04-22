@@ -13,16 +13,16 @@ function formatDateFR(dateString) {
 }
 
 function renderArticle(article) {
-      const titleEl = document.getElementById('article-title');
-      const dateEl = document.getElementById('article-date');
-      const imageEl = document.getElementById('article-image');
-      const contentEl = document.getElementById('article-content');
+  const titleEl = document.getElementById('article-title');
+  const dateEl = document.getElementById('article-date');
+  const imageEl = document.getElementById('article-image');
+  const contentEl = document.getElementById('article-content');
 
-      if (titleEl) titleEl.textContent = data.title;
-      if (dateEl) dateEl.textContent = data.date;
-      if (imageEl) imageEl.src = data.image;
-      if (contentEl) contentEl.innerHTML = data.content;
-  }
+  if (titleEl) titleEl.textContent = article.title;
+  if (dateEl) dateEl.textContent = formatDateFR(article.date);
+  if (imageEl) imageEl.src = article.image;
+  if (contentEl) contentEl.innerHTML = article.content;
+}
 
 function renderRecentArticles(allArticles, currentId) {
   const recentArticlesContainer = document.getElementById("recent-articles-container");
@@ -63,3 +63,4 @@ fetch("articles.json")
     }
   })
   .catch(error => console.error("Erreur de chargement des articles :", error));
+
