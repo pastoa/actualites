@@ -13,12 +13,16 @@ function formatDateFR(dateString) {
 }
 
 function renderArticle(article) {
-  document.getElementById("article-title").textContent = article.title;
-  document.getElementById("article-date").textContent = formatDateFR(article.date);
-  document.getElementById("article-image").src = article.image;
-  document.getElementById("article-image").alt = article.title;
-  document.getElementById("article-content").innerHTML = article.content;
-}
+      const titleEl = document.getElementById('article-title');
+      const dateEl = document.getElementById('article-date');
+      const imageEl = document.getElementById('article-image');
+      const contentEl = document.getElementById('article-content');
+
+      if (titleEl) titleEl.textContent = data.title;
+      if (dateEl) dateEl.textContent = data.date;
+      if (imageEl) imageEl.src = data.image;
+      if (contentEl) contentEl.innerHTML = data.content;
+  }
 
 function renderRecentArticles(allArticles, currentId) {
   const recentArticlesContainer = document.getElementById("recent-articles-container");
