@@ -24,7 +24,8 @@ fs.readdirSync(articlesDir)
       date: meta.date,
       image: `https://pastoa.github.io/actualites/${meta.image}`,
       slug,
-      excerpt
+      excerpt,
+      content: body.trim()
     });
   });
 
