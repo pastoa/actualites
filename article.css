@@ -102,7 +102,7 @@ nav a:hover {
 /* === PAGE ARTICLE DÉDIÉE === */
 
 .article-complet {
-  max-width: 900px;
+  max-width: 100%;
   margin: 80px auto;
   padding: 30px;
   background: #fff;
@@ -111,7 +111,7 @@ nav a:hover {
 }
 
 .article-complet img {
-  width: 100%;
+  max-width: 100%;
   max-height: 380px;
   object-fit: cover;
   border-radius: 10px;
@@ -120,7 +120,7 @@ nav a:hover {
 
 .article-complet h1 {
   font-size: 2.4em;
-  margin-top: 30px;
+  margin-top: 60px;
   color: #002654;
 }
 
