@@ -6,7 +6,10 @@
   <title>Charles Ange Ginésy</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/cag-icon" href="favicon.ico">
-  <script>
+  <div class="burger" onclick="document.querySelector('.main-nav').classList.toggle('open')">
+  ☰
+</div>
+ <script>
     function toggleMenu() {
       const nav = document.querySelector("nav ul");
       nav.style.display = nav.style.display === "flex" ? "none" : "flex";
