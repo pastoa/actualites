@@ -533,3 +533,78 @@ footer {
 .footer-socials a img:hover {
   transform: scale(1.1);
 }
+
+.articles-recents {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 0 15px;
+}
+
+.articles-recents h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: #002654;
+}
+
+.recents-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.recent-article {
+  flex: 1 1 45%;
+  max-width: 450px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.recent-article:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.recent-article img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.recent-text {
+  padding: 15px;
+}
+
+.recent-text h4 {
+  margin: 0 0 10px;
+  font-size: 1.1em;
+  color: #002654;
+}
+
+.recent-text h4 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.recent-text h4 a:hover {
+  text-decoration: underline;
+}
+
+.recent-text .date {
+  font-size: 0.85em;
+  color: #888;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .recent-article {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
