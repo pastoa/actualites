@@ -8,13 +8,13 @@
   <link rel="icon" type="image/cag-icon" href="favicon.ico">
   <script src="js/article.js" defer></script>
 
-  <script>
+
+    <script>
   function toggleMenu() {
     const nav = document.querySelector("nav ul");
-    nav.style.display = nav.style.display === "flex" ? "none" : "flex";
+    nav.classList.toggle("active");
   }
 </script>
-
 
 </head>
 <body>
@@ -26,7 +26,7 @@
  <div class="liseret"></div>
       <p class="header-subtitle">Président du Département des Alpes-Maritimes<br>Président de la Communauté de Communes Alpes d'Azur</p>
     </div>
-    <button id="menu-toggle" onclick="toggleMenu()">☰</button>
+    <div class="burger" onclick="toggleMenu()">☰</div>
     <nav>
       <ul>
         <li><a href="#actualites">ACTUALITÉS</a></li>
