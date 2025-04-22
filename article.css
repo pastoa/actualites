@@ -361,32 +361,29 @@ footer {
     flex-direction: column;
     align-items: center;
   }
+  .footer-icons {
+    justify-content: center;
+    flex-wrap: wrap;
 }
-@media (max-width: 768px) {
-  .header .social-icons {
-    display: none;
-  }
-}
-.burger {
-  display: none;
-  font-size: 24px;
-  cursor: pointer;
 }
 
 @media (max-width: 768px) {
-  .burger {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #002654;
+    padding: 10px;
+  }
+
+  #menu-toggle {
     display: block;
   }
 
-  .main-nav {
+  .social-icons {
     display: none;
-    flex-direction: column;
   }
 
-  .main-nav.open {
-    display: flex;
-  }
-}
 .article-container h1,
 .recent-article h4 a {
   text-decoration: none;
