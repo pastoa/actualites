@@ -796,10 +796,8 @@ footer {
   }
 
   .footer-socials {
-  display: flex;
-  gap: 15px;
-  justify-content: center; /* ✅ centre les logos */
-  margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -813,3 +811,21 @@ footer {
     max-width: 100%;
   }
 }
+
+@media (max-width: 768px) {
+  .burger {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+}
+
