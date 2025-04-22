@@ -16,3 +16,4 @@ C’est en ce sens que depuis plus de 20 ans nous organisons les Voyages de la M
 C’est également en ce sens que depuis l’attaque du Hamas le 7 octobre 2023, le Département a multiplié les initiatives pour exprimer sa solidarité envers Israël, rappeler l’urgence de la libération des otages israéliens tout autant que son soutien à la population palestinienne, lourde victime de l’acte terroriste du Hamas. 
 
 Nous devons redoubler d’efforts pour combattre la haine et promouvoir le vivre-ensemble. Merci à Elie Korchia pour son engagement indéfectible et précieux.
+
