@@ -37,13 +37,14 @@ function renderRecentArticles(allArticles, currentId) {
     const block = document.createElement("div");
     block.className = "recent-article";
 
-    block.innerHTML = `
-      <a href="article.html?id=${article.id}">
-        <img src="${article.image}" alt="${article.title}">
-        <h4>${article.title}</h4>
-        <p class="date">${formatDateFR(article.date)}</p>
-      </a>
-    `;
+
+block.innerHTML = `
+  <img src="${article.image}" alt="${article.title}">
+  <div class="recent-text">
+    <h4><a href="article.html?id=${article.id}">${article.title}</a></h4>
+    <p class="date">${formatDateFR(article.date)}</p>
+  </div>
+`;
 
     recentArticlesContainer.appendChild(block);
   });
