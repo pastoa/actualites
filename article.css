@@ -144,65 +144,52 @@ nav a:hover {
 }
 
 
-/* === ARTICLES RÉCENTS === */
-
-.articles-recents {
-  background: #f9f9f9;
-  border: 1px solid #eee;
-  border-radius: 10px;
-  max-width: 1000px;
-  margin: 80px auto;
-}
-
-.articles-recents h2 {
-  text-align: center;
-  font-size: 2.2em;
-  color: #002654;
-  margin-bottom: 60px;
-}
-
-.recents-container {
-  display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 30px;
-}
-
 .recent-article {
-  flex: 1 1 calc(50% - 30px);
-  max-width: 450px;
-  background: #f9f9f9;
-  border-radius: 10px;
+  background: #fff;
+  border-radius: 12px;
   overflow: hidden;
-  transition: transform 0.2s ease;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  box-shadow: 0 1px 5px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  max-width: 450px;
 }
 
 .recent-article:hover {
-  transform: translateY(-5px);
-  text-decoration: none;
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .recent-article img {
   width: 100%;
-  height: 220px;
+  height: 180px;
   object-fit: cover;
+  display: block;
 }
 
-.recent-article h4 {
-  font-size: 1.2em;
-  margin-top: 10px;
-  margin-bottom: 8px;
-  text-decoration: none;
+.recent-text {
+  padding: 15px;
+}
+
+.recent-text h4 {
+  margin: 0 0 10px;
+  font-size: 1.1em;
   color: #002654;
 }
 
-.recent-article .date {
-  font-size: 0.9em;
-  margin: 0 15px 15px;
-  color: #666;
+.recent-text h4 a {
+  text-decoration: none;
+  color: inherit;
 }
+
+.recent-text h4 a:hover {
+  text-decoration: underline;
+}
+
+.recent-text .date {
+  font-size: 0.85em;
+  color: #888;
+  margin: 0;
+}
+
 
 /* NEWSLETTER */
 .newsletter {
