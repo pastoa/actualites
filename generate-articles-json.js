@@ -7,7 +7,10 @@ fs.readdirSync("./post").forEach(file => {
   if (file.endsWith(".md")) {
     const raw = fs.readFileSync("./post/" + file, "utf8");
     const { data, content } = matter(raw);
-    const excerpt = content.trim().split("\n").slice(0, 5).join(" ");
+    const cleanText = content.trim().replace(/\n/g, " ");
+    const match = cleanText.match(/^(.{50,300}?\.)/); // minimum 50 caractères, jusqu’au 1er point
+    const excerpt = match ? match[1] : cleanText.slice(0, 200);
+
     articles.push({
       id: data.id,
       title: data.title,
