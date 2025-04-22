@@ -450,10 +450,8 @@ footer {
   }
 
   .footer-socials {
-  display: flex;
-  gap: 15px;
-  justify-content: center; /* ✅ centre les logos */
-  margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 
