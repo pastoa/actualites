@@ -7,7 +7,6 @@ summary: Anne Sattonnet, mon binôme sur le magnifique canton de Vence et ma Vic
 ---
 Anne Sattonnet, mon binôme sur le magnifique canton de Vence et ma Vice-Présidente déléguée à la Gestion des Risques et du Patrimoine Départemental, a annoncé sa candidature pour les élections municipales à Vence.
 
-
 Anne a toutes les compétences, toutes les qualités et toute la détermination nécessaires pour être à l’écoute et répondre aux attentes des citoyens. Anne aime Vence par-dessus tout.
 
 Depuis de nombreuses années, son investissement et sa capacité de travail lorsqu’elle se saisie d’un dossier sont indéniables. Ce qu’elle prend à bras le corps, elle le mène à son terme.
