@@ -1,35 +1,25 @@
 const fs = require("fs");
-const path = require("path");
+const matter = require("gray-matter");
 
-const articlesDir = path.join(__dirname, "post");
-const output = [];
+const articles = [];
 
-fs.readdirSync(articlesDir)
-  .filter(file => file.endsWith(".md"))
-  .forEach(file => {
-    const content = fs.readFileSync(path.join(articlesDir, file), "utf-8");
-    const [ , frontmatter, body ] = content.split("---");
-
-    const meta = {};
-    frontmatter.trim().split("\n").forEach(line => {
-      const [key, ...rest] = line.split(":");
-      meta[key.trim()] = rest.join(":").trim().replace(/^"|"$/g, "");
+fs.readdirSync("./post").forEach(file => {
+  if (file.endsWith(".md")) {
+    const raw = fs.readFileSync("./post/" + file, "utf8");
+    const { data, content } = matter(raw);
+    const excerpt = content.trim().split("\n").slice(0, 5).join(" ");
+    articles.push({
+      id: data.id,
+      title: data.title,
+      date: data.date,
+      image: "https://pastoa.github.io/actualites/" + data.image,
+      slug: file.replace(".md", ""),
+      excerpt: excerpt,
+      content: content.trim() // ✅ le vrai contenu est bien là
     });
+  }
+});
 
-    const excerpt = body.trim().split("\n").slice(0, 5).join(" ");
-    const slug = file.replace(".md", "");
-
-    output.push({
-      title: meta.title,
-      date: meta.date,
-      image: `https://pastoa.github.io/actualites/${meta.image}`,
-      slug,
-      excerpt,
-      content: body.trim() // ✅ ajout direct du contenu texte
-    });
-  });
-
-output.sort((a, b) => new Date(b.date) - new Date(a.date));
-
-fs.writeFileSync("articles.json", JSON.stringify(output, null, 2));
-console.log("✅ Fichier articles.json généré avec contenu complet !");
+articles.sort((a, b) => new Date(b.date) - new Date(a.date));
+fs.writeFileSync("articles.json", JSON.stringify(articles, null, 2));
+console.log("✅ articles.json généré avec contenu complet !");
