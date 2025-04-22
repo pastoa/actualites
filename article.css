@@ -350,3 +350,68 @@ footer {
     max-height: 250px;
   }
 }
+
+/* === FOOTER CENTRÉ EN MOBILE === */
+@media (max-width: 768px) {
+  footer {
+    text-align: center;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .header .social-icons {
+    display: none;
+  }
+}
+.burger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .burger {
+    display: block;
+  }
+
+  .main-nav {
+    display: none;
+    flex-direction: column;
+  }
+
+  .main-nav.open {
+    display: flex;
+  }
+}
+.article-container h1,
+.recent-article h4 a {
+  text-decoration: none;
+}
+
+.recent-article h4 a:hover {
+  text-decoration: underline;
+}
+.recents-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.recent-article {
+  flex: 1 1 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 600px) {
+  .recent-article {
+    flex: 1 1 calc(50% - 30px);
+    max-width: calc(50% - 30px);
+  }
+}
+
+
