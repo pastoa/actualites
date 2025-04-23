@@ -580,6 +580,13 @@ footer {
   margin: 0 15px 15px;
 }
 
+/* === CONTAINER GLOBAL === */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 /* === RESPONSIVE === */
 @media screen and (max-width: 768px) {
   .recent-article {
