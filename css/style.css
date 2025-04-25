@@ -909,22 +909,20 @@ footer {
     display: none;
   }
 
-  /* === HEADER BURGER DÉROULANT === */
-/* === MENU BURGER FIXÉ SUR HTML FOURNI === */
+/* === HEADER IDENTIQUE À LA PAGE D’ACCUEIL === */
 
 header {
   background-color: #002654;
   color: white;
-  padding: 20px;
-  position: relative;
+  padding: 20px 40px;
 }
 
 .header-left {
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .header-title {
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin: 0;
 }
 
@@ -933,21 +931,28 @@ header {
   text-decoration: none;
 }
 
+.liseret {
+  height: 4px;
+  width: 100px;
+  background: white;
+  margin: 10px 0;
+}
+
 .header-subtitle {
-  font-size: 0.9em;
-  margin: 5px 0 0;
+  font-size: 0.8em;
+  margin: 0;
   color: white;
 }
 
 #menu-toggle {
   display: none;
-  font-size: 2em;
+  font-size: 1.6em;
   background: none;
   border: none;
   color: white;
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 25px;
+  right: 40px;
   cursor: pointer;
   z-index: 10;
 }
@@ -956,8 +961,8 @@ nav ul {
   display: flex;
   gap: 30px;
   list-style: none;
-  padding: 10px 0;
   margin: 0;
+  padding: 10px 0 0;
   background-color: #002654;
   flex-wrap: wrap;
 }
@@ -969,18 +974,18 @@ nav ul li a {
 }
 
 .social-icons {
-  margin-top: 10px;
+  margin-top: 15px;
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
 }
 
 .social-icons a img {
-  height: 24px;
+  height: 22px;
   filter: brightness(0) invert(1);
 }
 
-/* === Responsive menu burger === */
+/* === Responsive burger === */
 @media (max-width: 768px) {
   #menu-toggle {
     display: block;
