@@ -8,10 +8,9 @@
   <link rel="icon" type="image/cag-icon" href="favicon.ico">
 
 <script>
-  function toggleMenu() {
-    const nav = document.querySelector("nav ul");
-    nav.classList.toggle("active");
-  }
+    function toggleMenu() {
+      const nav = document.querySelector("nav ul");
+      nav.style.display = nav.style.display === "flex" ? "none" : "flex";
 </script>
 
 </head>
@@ -24,7 +23,7 @@
  <div class="liseret"></div>
       <p class="header-subtitle">Président du Département des Alpes-Maritimes<br>Président de la Communauté de Communes Alpes d'Azur</p>
     </div>
-    <div class="burger" onclick="toggleMenu()">☰</div>
+    <button id="menu-toggle" onclick="toggleMenu()">☰</button>
     <nav>
       <ul>
         <li><a href="https://pastoa.github.io/actualites/">ACTUALITÉS</a></li>
