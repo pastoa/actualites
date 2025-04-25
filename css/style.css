@@ -800,5 +800,57 @@ footer {
     display: none;
   }
 
+  .slider {
+    height: auto;
+  }
+
+  .slider-caption {
+    position: static;
+    background-color: white;
+    padding: 12px;
+    margin-top: 10px;
+    box-shadow: none;
+    border-radius: 6px;
+    max-width: 100%;
+  }
+
+  .actus-container {
+    flex-direction: column;
+  }
+
+  .read-more {
+    width: fit-content;
+    margin: auto;
+  }
+
+  .priorite-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .priorite-content img {
+    max-height: 250px;
+  }
+
+  .photo-contact {
+    display: none;
+  }
+  .priorite-content img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer-icons {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 
 
