@@ -9,8 +9,8 @@
 
 <script>
     function toggleMenu() {
-      const nav = document.querySelector("nav ul");
-      nav.style.display = nav.style.display === "flex" ? "none" : "flex";
+      const nav = document.getElementbyId("main-nav");
+      nav.classList.toggle('show');
       }
 </script>
 
@@ -24,8 +24,8 @@
  <div class="liseret"></div>
       <p class="header-subtitle">Président du Département des Alpes-Maritimes<br>Président de la Communauté de Communes Alpes d'Azur</p>
     </div>
-    <button id="menu-toggle" onclick="toggleMenu()">☰</button>
-    <nav>
+    <div class="burger" onclick="toggleMenu()">☰</div>
+    <nav id = "main-nav">
       <ul>
         <li><a href="https://pastoa.github.io/actualites/">ACTUALITÉS</a></li>
         <li><a href="https://pastoa.github.io/meconnaitre/">MIEUX ME CONNAÎTRE</a></li>
