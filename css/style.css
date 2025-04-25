@@ -688,45 +688,6 @@ footer {
   background-color: #0051a8;
 }
 
-/* === CORRECTIONS ACTUALITÉS : grille + centrage === */
-
-.article-page.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-#actu-une {
-  padding-top: 40px;
-}
-
-#liste-actus {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-}
-
-#liste-actus article {
-  flex: 1 1 300px;
-  max-width: 350px;
-  background: #fff;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
-}
-
-#liste-actus article:hover {
-  transform: translateY(-5px);
-}
-
-#pagination {
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-
 
 /* === RESPONSIVE ARTICLE PAGE === */
 
