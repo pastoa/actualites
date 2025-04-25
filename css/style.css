@@ -888,3 +888,60 @@ footer {
 .footer-socials a img:hover {
   transform: scale(1.1);
 }
+
+/* === BURGER MENU === */
+
+nav {
+  position: relative;
+}
+
+nav .burger {
+  display: none;
+  font-size: 2em;
+  cursor: pointer;
+  color: white;
+  z-index: 20;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  transition: max-height 0.4s ease;
+  overflow: hidden;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  nav .burger {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    background-color: #002654;
+    width: 100%;
+    max-height: 0;
+  }
+
+  nav ul.show {
+    max-height: 500px;
+    padding: 20px 0;
+  }
+
+  nav ul li {
+    text-align: center;
+    padding: 10px 0;
+  }
+}
+
