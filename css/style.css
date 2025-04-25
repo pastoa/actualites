@@ -414,12 +414,12 @@ footer {
   border: 1px solid white;
   margin-bottom: 10px;
 }
-.footer-icons {
+.footer-socials {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
 }
-.footer-icons img {
+.footer-socials img {
   height: 24px;
   filter: brightness(0) invert(1);
 }
@@ -443,7 +443,7 @@ footer {
   text-decoration: underline;
 }
 
-.newsletter, .suivez-moi, footer {
+.newsletter, .suivez-moi, footer,.actu {
   width: 100%;
   box-sizing: border-box;
 }
