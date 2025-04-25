@@ -688,6 +688,38 @@ footer {
   background-color: #0051a8;
 }
 
+/* === CORRECTIONS POUR LA PAGE ACTUALITÉS === */
+
+.article-page.container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 0 20px;
+}
+
+#actu-une,
+#liste-actus,
+#pagination {
+  width: 100%;
+}
+
+#actu-une {
+  padding-top: 40px;
+}
+
+#liste-actus {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+#pagination {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+
 /* === RESPONSIVE ARTICLE PAGE === */
 
 @media screen and (max-width: 768px) {
