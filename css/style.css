@@ -787,7 +787,7 @@ footer {
   nav ul {
     display: none;
     flex-direction: column;
-    width: 100%;
+    max-width: 100%;
     background-color: #002654;
     padding: 10px;
   }
